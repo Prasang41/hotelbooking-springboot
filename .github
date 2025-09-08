@@ -1,0 +1,8 @@
+target/
+*.class
+.idea/
+*.iml
+*.log
+.Ds_Store
+Thumbs.db
+product-image/

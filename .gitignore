@@ -1,0 +1,56 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# === Sensitive config ===
+src/main/resources/application.properties
+src/main/resources/application.yml
+.env
+*.env
+*.env.local
+*.secret
+*.key
+*.keystore
+*.p12
+
+# === Logs ===
+*.log
+logs/
+tmp/
+temp/
+
+# === Media / product images ===
+src/main/resources/static/images/
+src/main/resources/static/media/
+src/main/resources/static/uploads/
+
